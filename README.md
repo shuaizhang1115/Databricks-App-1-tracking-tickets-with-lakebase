@@ -1,5 +1,5 @@
 # Lakebase Support Ticket App
-
+URL: https://assignment1-7474650258708166.aws.databricksapps.com/
 ## Summary
 
 1. This folder contains the deployable Streamlit source for Bootcamp Assignment 1.
@@ -37,3 +37,11 @@ No password, token, host, client ID, or connection URL is stored in this folder.
 4. The App initializes `support_app.tickets` and
    `support_app.ticket_messages` through its own service-principal identity.
 5. Run `verify.sql` in the Lakebase SQL Editor and save the results.
+
+## Reflection
+
+The most difficult part was configuring the Databricks App resource and establishing secure 
+Lakebase connectivity without hard-coded credentials. 
+Lakebase differs from a traditional analytics table because it supports low-latency transactional 
+reads and writes for interactive applications. 
+Next, I would add status filtering and summary metrics to help users triage support tickets more efficiently.
