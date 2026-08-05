@@ -1,0 +1,4 @@
+databricks-sdk>=0.89.0,<1
+psycopg[binary,pool]>=3.2,<4
+sqlparse>=0.5,<1
+streamlit>=1.38,<1.39

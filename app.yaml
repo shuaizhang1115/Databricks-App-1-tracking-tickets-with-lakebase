@@ -1,0 +1,6 @@
+command: ['streamlit', 'run', 'app.py']
+env:
+  - name: ENDPOINT_NAME
+    valueFrom: postgres
+  - name: STREAMLIT_GATHER_USAGE_STATS
+    value: 'false'
